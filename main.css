@@ -6,6 +6,8 @@
 body, html {
     height: 100%;
 
+    font-family: 'Cabin', sans-serif;
+
     margin: 0;
     padding: 0;
 }
@@ -13,7 +15,7 @@ body, html {
 .background-image {
     background: url(images/background-image.jpg);
 
-    height: 980px;
+    height: 100%;
     width: 80%;
     margin: 0 10%;
 
@@ -50,30 +52,30 @@ header h2 a:hover {
 }
 
 main {
-    display: flex;
+    
     margin: 0 10%;
 }
 
-section {
-    background-color: #999;
+.about_me {
+    background-color: whitesmoke;
 
-    height: 490px;
-    width: 80%;
-
-    margin: 0;
+   
+    width: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
+
+    padding: 15px 0;
 }
 
-nav {
+.articles {
     background-color: black;
-    width: 20%;
+    width: 100%;
     color: white;
 
     display: flex;
@@ -81,14 +83,26 @@ nav {
     align-content: space-around;
     justify-content: center;
     text-align: center;
+
+    font-size: 28px;
+    
 }
 
-nav li {
+.articles li {
     list-style: none;
+}
+
+.articles a {
+    text-decoration: none;
+    color: white;
 }
 
 footer {
     background-color: whitesmoke;
+
+    width: 80%;
+    margin: 0 10%;
+
     display: flex;
     justify-content: center;
     text-align: center;
