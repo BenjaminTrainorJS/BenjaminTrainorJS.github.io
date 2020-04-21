@@ -73,6 +73,11 @@ main {
     padding: 15px 0;
 }
 
+.about_me a {
+    text-decoration: none;
+    color: orangered;
+}
+
 .articles {
     background-color: black;
     width: 100%;
