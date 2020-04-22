@@ -69,6 +69,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 20px;
 
     padding: 15px 0;
 }
@@ -99,11 +100,23 @@ main {
 
 .articles a {
     text-decoration: none;
-    color: white;
+    color: turquoise;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    padding: 10px;
+    background-color: black;
+    margin: 15px;
+    border-radius: 3px;
 }
 
 footer {
-    background-color: whitesmoke;
+    background-color: lightgrey;
 
     width: 80%;
     margin: 0 10%;
@@ -120,9 +133,13 @@ footer ul li {
     padding: 14px 16px;
     text-decoration: none;
     list-style: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 footer ul li a {
 text-decoration: none;
     color: black;
+}
+
+#eda {
+    color: orangered;
 }
