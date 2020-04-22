@@ -24,6 +24,18 @@ body, html {
     background-size: cover;
 }
 
+.background-image-article {
+    background: url(/Users/benjamintrainor/eda/BenjaminTrainorJS.github.io/images/background-image.jpg);
+
+    height: 25%;
+    width: 80%;
+    margin: 0 10%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -74,7 +86,45 @@ main {
     padding: 15px 0;
 }
 
-.about_me a {
+.about_me_article {
+    background-color: whitesmoke;
+   
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about_me_article h2 {
+    font-size: 35px;
+}
+
+.about_me_article h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.date {
+    font-style: italic;
+}
+
+.about_me_article p {
+    font-size: 20px;
+}
+
+.foot_note {
+    margin-top: 70px;
+}
+
+.about_me a, .about_me_article a {
     text-decoration: none;
     color: orangered;
 }
@@ -98,7 +148,7 @@ main {
     list-style: none;
 }
 
-.articles a {
+.articles, .articles a {
     text-decoration: none;
     color: turquoise;
 }
@@ -113,6 +163,10 @@ section ul li {
     background-color: black;
     margin: 15px;
     border-radius: 3px;
+}
+
+.strike_through {
+    text-decoration: line-through;
 }
 
 footer {
