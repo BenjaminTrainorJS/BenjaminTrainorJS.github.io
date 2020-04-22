@@ -25,7 +25,7 @@ body, html {
 }
 
 .important {
-    height: 25% !important;
+    height: 30% !important;
 }
 
 header {
@@ -135,6 +135,29 @@ main {
     font-size: 28px;
     
 }
+
+.block-paragraph {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+/*
+.css {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
+.css li {
+    color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
+    width: 25%;
+}
+*/
 
 .articles li {
     list-style: none;

@@ -5,6 +5,7 @@
     <title>Benjamin's Blog</title>
     <link rel="stylesheet" href="../main.css">
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,21 +15,51 @@
     </header>
     <main id="main">
         <section class="about_me_article">
-            <h2>sprint two - technical: Technical Blog</h2>
+            <h2>sprint two - technical: classes vs. ids</h2>
             <h3>What are the best practices associated with using classes vs. ids?<h3>
-            <p class="date">22 April 2020</p>
-            <p></p>
-            <p class="foot_note">This blog is to showcase the various projects and tasks that I will be completing throughout my time with
-                <a href="https://devacademy.co.nz/">Enspiral Dev Academy.</a> </p>
+                    <p class="date">22 April 2020</p>
+
+                    <section>
+                        <div>
+                            <h3>.classes</h3>
+                            <p class="block-paragraph">A class attribute `class="header"` is used as a hook, to create a
+                                link
+                                between the CSS selector `.header` in the stylesheet to the HTML element. The class
+                                attribute can be 'hooked' to multiple HTML elements. This is done to save writng, or
+                                copy and pasting code multiple times. The class attribute `class="header"` should be
+                                specific to the semantic HTML tag which is being 'hooked' to, but the attribute doesn't
+                                change the semantic meaning of the HTML structure. The class attribute is not unique,
+                                and can
+                                be used multiple times.</p>
+                        </div>
+                        <div>
+                            <h3>#ids</h3>
+                            <p class="block-paragraph">Unlike the CSS `class=""` attributes, the `id="" attributes are
+                                unique, and are only to be used once per HTML page. These ids are best used to provde a
+                                point of reference or hook for internal links within the same HTML document ie linking
+                                from the top to the bottom of the page. The id is used within the href="" attribute, for
+                                example using the id="footer" to hook into the < footer id="footer"> tag and then usign
+                                a link tag with the href="#footer" attribute.</p>
+                        </div>
+                    </section>
+
+
+
+
+
+
+                    <p class="foot_note">This blog is to showcase the various projects and tasks that I will be
+                        completing throughout my time with
+                        <a href="https://devacademy.co.nz/">Enspiral Dev Academy.</a> </p>
         </section>
         <section class="articles">
             <ul class="article-list">
                 <a href="sprint1-technical.html">
                     <li>sprint one - technical: The Story of Te Houtaewa</li>
                 </a>
-                
-                    <li class="strike_through">sprint two - technical: Technical Blog</li>
-                
+
+                <li class="strike_through">sprint two - technical: classes vs. ids</li>
+
             </ul>
         </section>
     </main>
