@@ -24,7 +24,7 @@ body, html {
     background-size: cover;
 }
 
-#article {
+.background-image #article {
     height: 25%;
 }
 
