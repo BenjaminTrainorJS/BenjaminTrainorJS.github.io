@@ -136,6 +136,12 @@ main {
     
 }
 
+h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
 .block-paragraph {
     padding-left: 80px;
     padding-right: 80px;
