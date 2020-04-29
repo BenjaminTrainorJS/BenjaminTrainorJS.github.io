@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Benjamin's Blog</title>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="background-image important">
+        <h1>benjamin's blog</h1>
+        <h2><a href="../index.html#main">return home</a></h2>
+    </header>
+    <main id="main">
+        <section class="about_me_article">
+            <section>
+                <div>
+                    <h2>sprint three - technical: JavaScript, the DOM, and DevTools</h2>
+                    <p class="date">30 April 2020</p>
+                </div>
+            </section>
+            <section class="article-main">
+                <div class="article-main-summary">
+                    <div>
+                        <h5 class="article-subheading">This blog should strengthen your understanding of:</h5>
+                        <ul class="articleListItems">
+                            <li>JavaScript and its relationship to HTML and CSS</li>
+                            <li>Control flow and loops, arrays and objects</li>
+                            <li>Functions and why they are useful</li>
+                            <li>The DOM and DevTools</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article-blogbody">
+                    <div class="article-section">
+                        <h5 class="article-subheading">An analogy to describe the differences between HTML and CSS</h5>
+                        <p class="article-paragraph">
+                            The more I read, observe others code, and play around with HTML, CSS, and JavaScript, the
+                            more I begin to truly see the amazing power that lies in these three technologies. HTML
+                            (Hyper Text Mark-up Language), CSS (Cascading Style Sheets), and JavaScript (also known as
+                            ECMAScript) are the 3 key, foundational tools one needs to understand to create amazing
+                            websites.
+                        </p>
+                        <p class="article-paragraph">
+                            When thinking of a way to describe HTML and CSS, I think of a trip to the Whitsunday's in
+                            Central Queensland. On this trip I went scuba diving at the great barrier reef. And when I
+                            think of the great barrier reef I think of 'Finding Nemo'. I see this large structure and
+                            framework of living coral, strong, sturdy, but adaptable. Then I see the various fishes, and
+                            sea creatures and plants that beautify the vast structure of the coral. Two separate things,
+                            but together they become one big living thriving organism. With structure, beauty and
+                            function.
+                        </p>
+                        <p class="article-paragraph">
+                            Like the coral and sea creatures of the Great Barrier Reef, HTML and CSS are both very much
+                            separate technologies, but go hand-in-hand to create a truly marvelous collaboration of
+                            structure, functionality, and style.
+                        </p>
+                        <p class="article-paragraph">
+                            HTML provides the Semantic structure and meaning to the content of our website/web-app. This
+                            is done through the form of < tags>, these < tags> to inform other web technologies,
+                                    frameworks, and languages the meaning of our information.
+                        </p>
+                        <p class="article-paragraph">
+                            CSS builds upon the structure of HTML to bring color and style to our HTML. This is done
+                            through the use of CSS Syntax.
+                        </p>
+                        <p class="article-paragraph">
+                            You have a selector ie a < h1>
+                                </h1> HTML tag followed by open a closed curly braces '{}', inside
+                                these curly braces we have a declaration which is made up of a property ie color,
+                                followed by a colon, followed by a value ie a color 'blue'. This selector and
+                                declaration is then interpreted by the browser to provide the color and style to our
+                                content.
+                        </p>
+                    </div>
+                    <div class="article-section">
+                        <h5 class="article-subheading">Explain control flow and loops</h5>
+                        <p class="article-paragraph">
+                            In programming languages like Javascript, when we run the code, it is read from
+                            left-to-right top-to-bottom. In these languages we are able to use commands to manipulate
+                            the flow of how our lines of our code are utilized. In JavaScript and many other languages
+                            these are called loops.
+                        </p>
+                        <p class="article-paragraph">
+                            A loop allows us to re-use the same code time and time again to work through a problem. A
+                            typical loop is setup around a true-false conditional expression. If said conditional is
+                            true then run this line of code.
+                        </p>
+                        <p class="article-paragraph">
+                            We can think of this as driving our vehicle to work. We start off at home with a set
+                            distance to work say 20km, we can drive our car to the end of the drive way to the road and
+                            we have a conditional expression, is the distance to work to the left less than the the
+                            distance to work from the right. If this is true, then we turn left, if false then we turn
+                            right, we then have a counter set to the current distance to work. At each subsequent
+                            intersection we run the conditional expression. We will continue to run this series of
+                            conditional expressions until the distance to work is equal to 0.
+                        </p>
+                    </div>
+
+
+                    <div class="article-section">
+                        <h5 class="article-subheading">Describe what the DOM is and an example of how you might interact
+                            with it</h5>
+                        <p class="article-paragraph">
+                            The DOM (Document Object Model) is the browsers way of structuring the HTML mark-up, CSS,
+                            and JS in a away that the Browser understands, and then represents these values as a visual
+                            representation in the browser window, this is what you see when you enter 'www.google.com'.
+                        </p>
+                        <p class="article-paragraph">
+                            In the Browsers DevTools we are able to access and view the DOM within the browser window.
+                            In this we are able to select the specific CSS selectors and change them to represent a
+                            different value ie from 'blue' to 'green'. We can also use the DevTools and scripting files
+                            (ie JavaScript) to change how the content interacts through the use of 'DOM elements'.
+                        </p>
+                        <p class="article-paragraph">
+                            You could use these interactions in a away where you are adding an item to a list,
+                            JavaScript can manipulate the DOM to add an additional < div> with specific styling, and
+                                text
+                                content. JavaScript can also be used to delete an item in the same list. All of this is
+                                done without the webpage needing to be refreshed or reloaded.
+                        </p>
+                    </div>
+
+                    <div class="article-section">
+                        <h5 class="article-subheading">Explain the difference between accessing data from arrays and
+                            objects</h5>
+                        <p class="article-paragraph">
+                            An Array is a collection of data types, for example: </br>
+                            </br>
+                            - Strings: 'hello world'</br>
+                            - Boolean: true false</br>
+                            - numbers: 256</br>
+                            </br>
+                            let beautiful = ['blood', 'sweat', 'tears'];
+                        </p>
+                        <p class="article-paragraph">
+                            You can access a value inside the array through referencing it's index. Arrays use an index
+                            of 0 ie array[0]</br>
+                            </br>
+                            See example: console.log(beautiful[2]) // returns 'tears'</br>
+                            </br>
+                            </br>
+                            An Object is accessed by calling it's property using two different syntaxes. Dot notation,
+                            and using [] square brackets.</br>
+                            </br>
+                            let object {</br>
+                            property: 'value'</br>
+                            }</br>
+                            </br>
+                            Dot notation as follows:</br>
+                            </br>
+                            let propertyValue = object.property // returns 'value'</br>
+                            </br>
+                            or with square brackets:</br>
+                            </br>
+                            let propertyValue = object['property'] // returns 'value'</br>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+            <section class=article-footer>
+                <p class="foot_note">This blog is to showcase the various projects and tasks that I will be
+                    completing throughout my time with
+                    <a href="https://devacademy.co.nz/">Enspiral Dev Academy.</a> </p>
+            </section>
+        </section>
+        <section class="articles">
+            <ul class="article-list">
+                <a href="sprint1-technical.html">
+                    <li class="blogLinks">sprint one - technical: The Story of Te Houtaewa</li>
+                </a>
+                <a href="sprint1-cultural.html">
+                    <li class="blogLinks">sprint one - core: identity, values and strengths</li>
+                </a>
+                <a href="sprint2_technical.html">
+                    <li class="blogLinks">sprint two - technical: classes vs. ids</li>
+                </a>
+                <a href="sprint2-cultural.html">
+                    <li class="blogLinks">sprint two - core: learning reflections</li>
+                </a>
+                <a href="sprint3-cultural.html">
+                    <li class="blogLinks">sprint three - core: emotional intelligence</li>
+                </a>
+                
+                    <li class="strike_through blogLinks">sprint three - technical: JavaScript, the DOM, and DevTools</li>
+                
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/benjamintrainor/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://github.com/BenjaminTrainorJS">GitHub</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/NZMtnGoat">Twitter</a>
+            </li>
+            <li>
+                <a id="eda" href="https://devacademy.co.nz/">Dev Academy</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
