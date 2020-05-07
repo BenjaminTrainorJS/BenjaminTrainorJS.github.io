@@ -65,6 +65,26 @@ main {
     margin: 0 10%;
 }
 
+section {
+    text-align: center;
+}
+
+div {
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.date {
+    font-style: italic;
+    text-align: center;
+}
+
 .about_me {
     background-color: whitesmoke;
 
@@ -109,9 +129,7 @@ main {
     margin: 0;
 }
 
-.date {
-    font-style: italic;
-}
+
 
 .about_me_article p {
     font-size: 20px;
