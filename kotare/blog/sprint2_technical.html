@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Benjamin's Blog</title>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="background-image important">
+        <h1>benjamin's blog</h1>
+        <h2><a href="../index.html#main">return home</a></h2>
+    </header>
+    <main id="main">
+        <section class="about_me_article">
+            <h2>sprint two - technical: classes vs. ids</h2>
+            <h3>What are the best practices associated with using classes vs. ids?<h3>
+                    <p class="date">22 April 2020</p>
+
+                    <section>
+                        <div>
+                            <h3>.classes</h3>
+                            <p class="block-paragraph">A class attribute `class="header"` is used as a hook, to create a
+                                link
+                                between the CSS selector `.header` in the stylesheet to the HTML element. The class
+                                attribute can be 'hooked' to multiple HTML elements. This is done to save writng, or
+                                copy and pasting code multiple times. The class attribute `class="header"` should be
+                                specific to the semantic HTML tag which is being 'hooked' to, but the attribute doesn't
+                                change the semantic meaning of the HTML structure. The class attribute is not unique,
+                                and can
+                                be used multiple times.</p>
+                        </div>
+                        <div>
+                            <h3>#ids</h3>
+                            <p class="block-paragraph">Unlike the CSS `class=""` attributes, the `id="" attributes are
+                                unique, and are only to be used once per HTML page. These ids are best used to provde a
+                                point of reference or hook for internal links within the same HTML document ie linking
+                                from the top to the bottom of the page. The id is used within the href="" attribute, for
+                                example using the id="footer" to hook into the < footer id="footer"> tag and then usign
+                                a link tag with the href="#footer" attribute.</p>
+                        </div>
+                    </section>
+
+
+
+
+
+
+                    <p class="foot_note">This blog is to showcase the various projects and tasks that I will be
+                        completing throughout my time with
+                        <a href="https://devacademy.co.nz/">Enspiral Dev Academy.</a> </p>
+        </section>
+        <section class="articles">
+            <ul class="article-list">
+                <a href="sprint1-technical.html">
+                    <li class="blogLinks">sprint one - technical: The Story of Te Houtaewa</li>
+                </a>
+                <a href="sprint1-cultural.html">
+                    <li class="blogLinks">sprint one - core: identity, values and strengths</li>
+                </a>
+
+                <li class="strike_through blogLinks">sprint two - technical: classes vs. ids</li>
+
+                <a href="sprint2-cultural.html">
+                    <li class="blogLinks">sprint two - core: learning reflections</li>
+                </a>
+                <a href="sprint3-cultural.html">
+                    <li class="blogLinks">sprint three - core: emotional intelligence</li>
+                </a>
+                <a href="sprint3-technical.html">
+                    <li class="blogLinks">sprint three - technical: JavaScript, the DOM, and DevTools</li>
+                </a>
+                <a href="sprint4-cultural.html">
+                    <li class="blogLinks">
+                      sprint four - core: neuroplasticity and growth mindset
+                    </li>
+                </a>
+                <a href="sprint4-technical.html">
+                    <li class="blogLinks">
+                      sprint four - technical: problem solving
+                    </li>
+                  </a>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/benjamintrainor/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://github.com/BenjaminTrainorJS">GitHub</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/NZMtnGoat">Twitter</a>
+            </li>
+            <li>
+                <a id="eda" href="https://devacademy.co.nz/">Dev Academy</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
