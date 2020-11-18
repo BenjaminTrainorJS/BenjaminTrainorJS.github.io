@@ -4,3 +4,23 @@ img {
     height: 30vh;
     min-height: 150px;
 }
+
+header {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #40E0D0;
+}
+
+aside p, h2, img {
+    margin: 30px;
+}
+
+aside p {
+    color: #f6602d;
+}
+
+a {
+    text-decoration: none;
+    color: #e5302d;
+}
