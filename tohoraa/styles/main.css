@@ -1,3 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 2vw 25vw 10vw;
+    grid-gap: 1em;
+}
+
+header {
+    grid-column: 1/ span 2;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 90vw;
+    padding: 1em 0;
+}
+
+main {
+    background: #eaeaea;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
 img {
     border-radius: 50%;
     /* height: 300px; */   
@@ -23,4 +47,10 @@ aside p {
 a {
     text-decoration: none;
     color: #e5302d;
+}
+
+article {
+    background-color: blue;
+    min-width: 60vw;
+    min-width: 20vh;
 }
