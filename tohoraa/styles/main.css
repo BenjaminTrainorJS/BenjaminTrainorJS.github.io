@@ -7,7 +7,7 @@
     --background-drk: #4f4f4f;
     --light-grey: #c4c4c4;
     --nav-orng: #f65026; 
-
+    --turq: turquoise;
     /* Font variables*/
     --main-font: sans-serif;
     --logo: ;
@@ -23,6 +23,15 @@ body {
     font-size: 1.2rem;
     line-height: 1.45;
   }
+
+body a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+
+a:hover {
+    color: var(--turq);
+}
 
 .container {
     display: grid;
@@ -180,4 +189,24 @@ nav, footer {
 
 .content-item:nth-child(odd) {
     background-color: #efefef;
+}
+
+
+/* ---------- */
+/* Blog Pages */
+/* ---------- */
+
+.blog-container {
+    display: grid;
+    background: var(--background-drk);
+    width:1024px;
+    margin: 0 auto;
+} 
+
+.blog-container nav {
+    
+}
+
+.blog-main-content {
+        
 }
