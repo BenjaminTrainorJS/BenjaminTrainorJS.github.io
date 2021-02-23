@@ -267,3 +267,36 @@ text-decoration: none;
 #eda {
     color: orangered;
 }
+
+@media (max-width: 320px) {
+
+    header h1 { 
+        font-size: 50px;
+        color: white;
+        margin: 10px;
+    }
+
+    footer ul li {
+        float: none;
+        width: 100%;
+      }
+
+}
+
+@media (min-width: 480px) {
+
+    header h1 { 
+        font-size: 50px;
+        color: white;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    header h1 { 
+        font-size: 80px;
+        color: white;
+        margin: 10px;
+    }
+}
