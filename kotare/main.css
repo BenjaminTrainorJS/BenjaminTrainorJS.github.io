@@ -277,6 +277,8 @@ text-decoration: none;
     }
 
     footer ul li {
+        display:flexbox;
+        flex-direction: column;
         float: none;
         width: 100%;
       }
