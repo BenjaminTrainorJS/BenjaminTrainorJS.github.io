@@ -279,19 +279,43 @@ text-decoration: none;
     footer ul li {
         display:flexbox;
         flex-direction: column;
-        float: none;
         width: 100%;
+        text-align: right;
       }
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
 
     header h1 { 
         font-size: 50px;
         color: white;
         margin: 10px;
     }
+
+    footer ul li {
+        display:flexbox;
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+      }
+
+}
+
+@media (max-width: 480px) {
+
+    header h1 { 
+        font-size: 50px;
+        color: white;
+        margin: 10px;
+    }
+
+    footer ul li {
+        display:flexbox;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+      }
 }
 
 @media (min-width: 768px) {
@@ -301,4 +325,12 @@ text-decoration: none;
         color: white;
         margin: 10px;
     }
+
+    footer ul {
+        display: flex;
+    }
+
+    footer ul li {
+        width: 100%;
+      }
 }
