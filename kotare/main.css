@@ -204,10 +204,6 @@ h4 {
     line-height: 1.5em;
 }
 
-.article-blogbody {
-    
-}
-
 .article-section {
     background-color: white;
     border-radius: 5px;
@@ -310,6 +306,21 @@ text-decoration: none;
         margin: 10px;
     }
 
+    .articles {
+        background-color: black;
+        width: 100%;
+        color: white;
+    
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+        text-align: center;
+    
+        font-size: 18px;
+        
+    }
+
     footer ul li {
         display:flexbox;
         flex-direction: column;
@@ -319,6 +330,38 @@ text-decoration: none;
 }
 
 @media (min-width: 768px) {
+
+    header h1 { 
+        font-size: 65px;
+        color: white;
+        margin: 10px;
+    }
+
+    .articles {
+        background-color: black;
+        width: 100%;
+        color: white;
+    
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+        text-align: center;
+    
+        font-size: 22px;
+        
+    }
+
+    footer ul {
+        display: flex;
+    }
+
+    footer ul li {
+        width: 100%;
+      }
+}
+
+@media (min-width: 1200px) {
 
     header h1 { 
         font-size: 80px;
